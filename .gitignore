@@ -5,7 +5,7 @@ doc/
 pubspec.lock
 
 # Common build output
-/*/build/
+build/
 
 # Include .packages files from tests which are hand coded
 !build_runner_core/test/fixtures/**/.packages

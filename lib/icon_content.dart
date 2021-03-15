@@ -1,6 +1,5 @@
 import 'package:flutter/material.dart';
-
-const labelTextFile = TextStyle(fontSize: 18.0, color: Color(0xFF8D8E98));
+import 'package:bmi_calculator/constants.dart';
 
 class IconWidget extends StatelessWidget {
   final String genderLabel;
@@ -22,7 +21,7 @@ class IconWidget extends StatelessWidget {
         ),
         Text(
           genderLabel,
-          style: labelTextFile,
+          style: kLabelTextFile,
         )
       ],
     );
